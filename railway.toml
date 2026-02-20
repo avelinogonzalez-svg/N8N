@@ -3,4 +3,4 @@ builder = "DOCKERFILE"
 
 [deploy]
 startCommand = "n8n"
-healthcheckPath = "/"
+healthcheckPath = "/healthz"
